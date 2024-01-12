@@ -43,7 +43,7 @@ add_action( 'after_setup_theme', 'pehtheme_woocommerce_setup' );
  * @return void
  */
 function pehtheme_woocommerce_scripts() {
-	wp_enqueue_style( '_s-woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array(), _S_VERSION );
+	wp_enqueue_style( 'pehtheme-woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array(), _S_VERSION );
 
 	$font_path   = WC()->plugin_url() . '/assets/fonts/';
 	$inline_font = '@font-face {
@@ -57,7 +57,7 @@ function pehtheme_woocommerce_scripts() {
 			font-style: normal;
 		}';
 
-	wp_add_inline_style( '_s-woocommerce-style', $inline_font );
+	wp_add_inline_style( 'pehtheme-woocommerce-style', $inline_font );
 }
 add_action( 'wp_enqueue_scripts', 'pehtheme_woocommerce_scripts' );
 

@@ -33,7 +33,7 @@ function pehtheme_jetpack_setup() {
 		'jetpack-content-options',
 		array(
 			'post-details' => array(
-				'stylesheet' => '_s-style',
+				'stylesheet' => 'pehtheme-style',
 				'date'       => '.posted-on',
 				'categories' => '.cat-links',
 				'tags'       => '.tags-links',
