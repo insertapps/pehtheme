@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package _s
+ * @package Pehtheme
  */
 
 if ( ! function_exists( 'pehtheme_posted_on' ) ) :

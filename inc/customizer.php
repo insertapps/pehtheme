@@ -1,8 +1,8 @@
 <?php
 /**
- * _s Theme Customizer
+ * Pehtheme Theme Customizer
  *
- * @package _s
+ * @package Pehtheme
  */
 
 /**
